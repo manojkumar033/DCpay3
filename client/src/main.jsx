@@ -1,8 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from 'react-dom';
 
-import App from "./App";
-import { TransactionsProvider } from "./context/TransactionContext";
+import App from "./App.jsx";
+import { TransactionsProvider } from "./context/TransactionContext.jsx";
 import "./index.css";
 
 ReactDOM.render(
@@ -11,3 +11,5 @@ ReactDOM.render(
   </TransactionsProvider>,
   document.getElementById("root"),
 );
+ 
+export default ReactDOM;
